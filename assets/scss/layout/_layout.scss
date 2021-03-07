@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(18, 50, 63);
+  
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+   
+    &__title {
+        color: white;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.main {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.main__selectVista1, .main__selectVista2 {
+    display: flex;
+    flex-direction: column;
+    
+    // border: 2px solid red;
+
+    &-select{
+        margin-bottom: 1.5rem;
+        color: white;
+        background-color: rgb(18, 50, 63);
+        outline: none;
+        box-shadow: 0 10px 10px #000000;
+         height: 2rem;
+         width: 19rem;
+        text-align: left;
+    }
+    &-poke1 {
+        text-align: center;
+    }
+    &-group{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+};
+
+.pokeSpan {
+    margin-left: .5rem;
+}
+
+.main__pokeStats-1, .main__pokeStats-2 {
+    h2 {
+        text-align: center;
+        padding-bottom: .5rem;
+    }
+    &-cap {
+        display: flex;
+        &-izq p{
+            padding-right: .5rem;
+        }
+        
+    }
+}
+        
+
+
+.main__pokeGraph {
+    display: flex;
+    flex-direction: column;
+    // align-self: flex-end;
+    text-align: center;
+    h3 {
+        padding-bottom: 3rem;
+        padding-top: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+

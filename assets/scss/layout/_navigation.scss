@@ -1,0 +1,12 @@
+.navigation {
+    background-color: #263238;
+    display: flex;
+    position: relative;
+    // justify-content: center;
+    margin-bottom: 2rem;
+    border-bottom: .3rem solid white;
+    &__logo {
+        padding: .5rem 3rem;
+        height: 3.5rem;
+    }
+}
